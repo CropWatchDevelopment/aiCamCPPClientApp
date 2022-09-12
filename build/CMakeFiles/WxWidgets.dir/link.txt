@@ -1,0 +1,3 @@
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/WxWidgets.dir/objects.a
+/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/WxWidgets.dir/objects.a @CMakeFiles/WxWidgets.dir/objects1.rsp
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++  -std=c++11 -lstdc++ -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles/WxWidgets.dir/objects.a -Wl,--no-whole-archive -o WxWidgets.exe -Wl,--out-implib,libWxWidgets.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/WxWidgets.dir/linklibs.rsp
