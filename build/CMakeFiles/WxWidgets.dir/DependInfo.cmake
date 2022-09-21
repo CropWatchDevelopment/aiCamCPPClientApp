@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kevin/source/repos/cpp/cmake-study/wxWidgets/src/GUIFrame.cpp" "CMakeFiles/WxWidgets.dir/src/GUIFrame.cpp.obj" "gcc" "CMakeFiles/WxWidgets.dir/src/GUIFrame.cpp.obj.d"
-  "/home/kevin/source/repos/cpp/cmake-study/wxWidgets/src/aiCamClientAppApp.cpp" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppApp.cpp.obj" "gcc" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppApp.cpp.obj.d"
-  "/home/kevin/source/repos/cpp/cmake-study/wxWidgets/src/aiCamClientAppMain.cpp" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppMain.cpp.obj" "gcc" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppMain.cpp.obj.d"
+  "/home/kevin/source/repos/cpp/aiCamCPPClientApp/src/GUIFrame.cpp" "CMakeFiles/WxWidgets.dir/src/GUIFrame.cpp.obj" "gcc" "CMakeFiles/WxWidgets.dir/src/GUIFrame.cpp.obj.d"
+  "/home/kevin/source/repos/cpp/aiCamCPPClientApp/src/aiCamClientAppApp.cpp" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppApp.cpp.obj" "gcc" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppApp.cpp.obj.d"
+  "/home/kevin/source/repos/cpp/aiCamCPPClientApp/src/aiCamClientAppMain.cpp" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppMain.cpp.obj" "gcc" "CMakeFiles/WxWidgets.dir/src/aiCamClientAppMain.cpp.obj.d"
   )
 
 # Targets to which this target links.

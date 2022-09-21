@@ -1,5 +1,5 @@
 The target system is: Windows -  - i686
-The host system is: Linux - 5.15.0-46-generic - x86_64
+The host system is: Linux - 5.15.0-47-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc 
 Build flags: 
@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/3.23.2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/3.24.1/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++ 
@@ -24,15 +24,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/3.23.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/3.24.1/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dcbf4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcbf4.dir/build.make CMakeFiles/cmTC_dcbf4.dir/build
-gmake[1]: Entering directory '/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dcbf4.dir/CMakeCCompilerABI.c.obj
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc   -v -o CMakeFiles/cmTC_dcbf4.dir/CMakeCCompilerABI.c.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39968/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39968.dir/build.make CMakeFiles/cmTC_39968.dir/build
+gmake[1]: Entering directory '/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39968.dir/CMakeCCompilerABI.c.obj
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc   -v -o CMakeFiles/cmTC_39968.dir/CMakeCCompilerABI.c.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCCompilerABI.c
 Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs
 COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-gcc
 Target: i686-w64-mingw32.static
@@ -40,8 +40,8 @@ Configured with: /home/kevin/mxe/tmp-gcc-i686-w64-mingw32.static/gcc-11.3.0/conf
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_1a360.dir/'
- /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1 -quiet -v -D_REENTRANT ../../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1a360.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/cc27Qqoi.s
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_88785.dir/'
+ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1 -quiet -v -D_REENTRANT ../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_88785.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/cc8Rg4Jz.s
 GNU C17 (GCC) version 11.3.0 (i686-w64-mingw32.static)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.16.1-GMP
 
@@ -58,18 +58,18 @@ GNU C17 (GCC) version 11.3.0 (i686-w64-mingw32.static)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.16.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 44ef8842fd1d94a9e05e9dc92b8d9265
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_1a360.dir/'
- /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj /tmp/cc27Qqoi.s
+Compiler executable checksum: e405e822dab3dc3f899c7826ef89bbaa
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_88785.dir/'
+ /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj /tmp/cc8Rg4Jz.s
 GNU assembler version 2.38 (i686-w64-mingw32.static) using BFD version (GNU Binutils) 2.38
 COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/
 LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_dcbf4.exe
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbf4.dir/link.txt --verbose=1
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_dcbf4.dir/objects.a
-/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_dcbf4.dir/objects.a @CMakeFiles/cmTC_dcbf4.dir/objects1.rsp
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc  -v -Wl,--whole-archive CMakeFiles/cmTC_dcbf4.dir/objects.a -Wl,--no-whole-archive -o cmTC_dcbf4.exe -Wl,--out-implib,libcmTC_dcbf4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_39968.exe
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39968.dir/link.txt --verbose=1
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_39968.dir/objects.a
+/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_39968.dir/objects.a @CMakeFiles/cmTC_39968.dir/objects1.rsp
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc  -v -Wl,--whole-archive CMakeFiles/cmTC_39968.dir/objects.a -Wl,--no-whole-archive -o cmTC_39968.exe -Wl,--out-implib,libcmTC_39968.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs
 COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-gcc
 COLLECT_LTO_WRAPPER=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper
@@ -80,10 +80,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.3.0 (GCC) 
 COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/
 LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dcbf4.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_dcbf4.'
- /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBXCYdR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_dcbf4.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_dcbf4.dir/objects.a --no-whole-archive --out-implib libcmTC_dcbf4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dcbf4.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_dcbf4.'
-gmake[1]: Leaving directory '/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39968.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_39968.'
+ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2ST5vV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_39968.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_39968.dir/objects.a --no-whole-archive --out-implib libcmTC_39968.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39968.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_39968.'
+gmake[1]: Leaving directory '/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -102,12 +102,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-w64-mingw32\.static-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dcbf4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcbf4.dir/build.make CMakeFiles/cmTC_dcbf4.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_dcbf4.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc   -v -o CMakeFiles/cmTC_dcbf4.dir/CMakeCCompilerABI.c.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39968/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39968.dir/build.make CMakeFiles/cmTC_39968.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_39968.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc   -v -o CMakeFiles/cmTC_39968.dir/CMakeCCompilerABI.c.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
   ignore line: [Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs]
   ignore line: [COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-gcc]
   ignore line: [Target: i686-w64-mingw32.static]
@@ -115,8 +115,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_1a360.dir/']
-  ignore line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1 -quiet -v -D_REENTRANT ../../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1a360.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/cc27Qqoi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_88785.dir/']
+  ignore line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1 -quiet -v -D_REENTRANT ../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_88785.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/cc8Rg4Jz.s]
   ignore line: [GNU C17 (GCC) version 11.3.0 (i686-w64-mingw32.static)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.16.1-GMP]
   ignore line: []
@@ -133,18 +133,18 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.16.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 44ef8842fd1d94a9e05e9dc92b8d9265]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_1a360.dir/']
-  ignore line: [ /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj /tmp/cc27Qqoi.s]
+  ignore line: [Compiler executable checksum: e405e822dab3dc3f899c7826ef89bbaa]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_88785.dir/']
+  ignore line: [ /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj /tmp/cc8Rg4Jz.s]
   ignore line: [GNU assembler version 2.38 (i686-w64-mingw32.static) using BFD version (GNU Binutils) 2.38]
   ignore line: [COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/]
   ignore line: [LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_1a360.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_dcbf4.exe]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbf4.dir/link.txt --verbose=1]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_dcbf4.dir/objects.a]
-  ignore line: [/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_dcbf4.dir/objects.a @CMakeFiles/cmTC_dcbf4.dir/objects1.rsp]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc  -v -Wl --whole-archive CMakeFiles/cmTC_dcbf4.dir/objects.a -Wl --no-whole-archive -o cmTC_dcbf4.exe -Wl --out-implib libcmTC_dcbf4.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_88785.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_39968.exe]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39968.dir/link.txt --verbose=1]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_39968.dir/objects.a]
+  ignore line: [/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_39968.dir/objects.a @CMakeFiles/cmTC_39968.dir/objects1.rsp]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-gcc  -v -Wl --whole-archive CMakeFiles/cmTC_39968.dir/objects.a -Wl --no-whole-archive -o cmTC_39968.exe -Wl --out-implib libcmTC_39968.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs]
   ignore line: [COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper]
@@ -155,13 +155,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/]
   ignore line: [LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dcbf4.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_dcbf4.']
-  link line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBXCYdR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_dcbf4.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_dcbf4.dir/objects.a --no-whole-archive --out-implib libcmTC_dcbf4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39968.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_39968.']
+  link line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2ST5vV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_39968.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_39968.dir/objects.a --no-whole-archive --out-implib libcmTC_39968.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o]
     arg [/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccBXCYdR.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2ST5vV.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -188,7 +188,7 @@ Parsed C implicit link information from above output:
     arg [i386pe] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_dcbf4.exe] ==> ignore
+    arg [cmTC_39968.exe] ==> ignore
     arg [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o] ==> obj [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o]
     arg [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o] ==> obj [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o]
     arg [-L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0] ==> dir [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0]
@@ -197,10 +197,10 @@ Parsed C implicit link information from above output:
     arg [-L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib] ==> dir [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib]
     arg [-L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib] ==> dir [/home/kevin/mxe/usr/i686-w64-mingw32.static/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles/cmTC_dcbf4.dir/objects.a] ==> ignore
+    arg [CMakeFiles/cmTC_39968.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_dcbf4.dll.a] ==> ignore
+    arg [libcmTC_39968.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -242,12 +242,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f943e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f943e.dir/build.make CMakeFiles/cmTC_f943e.dir/build
-gmake[1]: Entering directory '/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f943e.dir/CMakeCXXCompilerABI.cpp.obj
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++   -v -o CMakeFiles/cmTC_f943e.dir/CMakeCXXCompilerABI.cpp.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6dca3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6dca3.dir/build.make CMakeFiles/cmTC_6dca3.dir/build
+gmake[1]: Entering directory '/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6dca3.dir/CMakeCXXCompilerABI.cpp.obj
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++   -v -o CMakeFiles/cmTC_6dca3.dir/CMakeCXXCompilerABI.cpp.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
 Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs
 COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-g++
 Target: i686-w64-mingw32.static
@@ -255,8 +255,8 @@ Configured with: /home/kevin/mxe/tmp-gcc-i686-w64-mingw32.static/gcc-11.3.0/conf
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_cb678.dir/'
- /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1plus -quiet -v -D_REENTRANT ../../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cb678.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccerVaAV.s
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_c1176.dir/'
+ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1plus -quiet -v -D_REENTRANT ../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c1176.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccOmaxSs.s
 GNU C++17 (GCC) version 11.3.0 (i686-w64-mingw32.static)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.16.1-GMP
 
@@ -276,18 +276,18 @@ GNU C++17 (GCC) version 11.3.0 (i686-w64-mingw32.static)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.16.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 71b8b92d524907f38e2c0b2779d71e13
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_cb678.dir/'
- /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccerVaAV.s
+Compiler executable checksum: a29abac4f5b33cde12780b458a5d8f98
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_c1176.dir/'
+ /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccOmaxSs.s
 GNU assembler version 2.38 (i686-w64-mingw32.static) using BFD version (GNU Binutils) 2.38
 COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/
 LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_f943e.exe
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f943e.dir/link.txt --verbose=1
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_f943e.dir/objects.a
-/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_f943e.dir/objects.a @CMakeFiles/cmTC_f943e.dir/objects1.rsp
-/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++  -v -Wl,--whole-archive CMakeFiles/cmTC_f943e.dir/objects.a -Wl,--no-whole-archive -o cmTC_f943e.exe -Wl,--out-implib,libcmTC_f943e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_6dca3.exe
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dca3.dir/link.txt --verbose=1
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_6dca3.dir/objects.a
+/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_6dca3.dir/objects.a @CMakeFiles/cmTC_6dca3.dir/objects1.rsp
+/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++  -v -Wl,--whole-archive CMakeFiles/cmTC_6dca3.dir/objects.a -Wl,--no-whole-archive -o cmTC_6dca3.exe -Wl,--out-implib,libcmTC_6dca3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs
 COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-g++
 COLLECT_LTO_WRAPPER=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper
@@ -298,10 +298,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.3.0 (GCC) 
 COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/
 LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f943e.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_f943e.'
- /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3p5YDu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_f943e.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_f943e.dir/objects.a --no-whole-archive --out-implib libcmTC_f943e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f943e.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_f943e.'
-gmake[1]: Leaving directory '/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6dca3.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_6dca3.'
+ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMEL1bl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_6dca3.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_6dca3.dir/objects.a --no-whole-archive --out-implib libcmTC_6dca3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6dca3.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_6dca3.'
+gmake[1]: Leaving directory '/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -326,12 +326,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-w64-mingw32\.static-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f943e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f943e.dir/build.make CMakeFiles/cmTC_f943e.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f943e.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++   -v -o CMakeFiles/cmTC_f943e.dir/CMakeCXXCompilerABI.cpp.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6dca3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6dca3.dir/build.make CMakeFiles/cmTC_6dca3.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6dca3.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++   -v -o CMakeFiles/cmTC_6dca3.dir/CMakeCXXCompilerABI.cpp.obj -c /home/kevin/mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs]
   ignore line: [COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-g++]
   ignore line: [Target: i686-w64-mingw32.static]
@@ -339,8 +339,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_cb678.dir/']
-  ignore line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1plus -quiet -v -D_REENTRANT ../../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cb678.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccerVaAV.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_c1176.dir/']
+  ignore line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/cc1plus -quiet -v -D_REENTRANT ../../../../../../../mxe/usr/x86_64-pc-linux-gnu/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c1176.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccOmaxSs.s]
   ignore line: [GNU C++17 (GCC) version 11.3.0 (i686-w64-mingw32.static)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.16.1-GMP]
   ignore line: []
@@ -360,18 +360,18 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.16.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 71b8b92d524907f38e2c0b2779d71e13]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_cb678.dir/']
-  ignore line: [ /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccerVaAV.s]
+  ignore line: [Compiler executable checksum: a29abac4f5b33cde12780b458a5d8f98]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_c1176.dir/']
+  ignore line: [ /home/kevin/mxe/usr/bin/i686-w64-mingw32.static-as -v -o CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccOmaxSs.s]
   ignore line: [GNU assembler version 2.38 (i686-w64-mingw32.static) using BFD version (GNU Binutils) 2.38]
   ignore line: [COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/]
   ignore line: [LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_cb678.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_f943e.exe]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f943e.dir/link.txt --verbose=1]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_f943e.dir/objects.a]
-  ignore line: [/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_f943e.dir/objects.a @CMakeFiles/cmTC_f943e.dir/objects1.rsp]
-  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++  -v -Wl --whole-archive CMakeFiles/cmTC_f943e.dir/objects.a -Wl --no-whole-archive -o cmTC_f943e.exe -Wl --out-implib libcmTC_f943e.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_c1176.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_6dca3.exe]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dca3.dir/link.txt --verbose=1]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/cmake -E rm -f CMakeFiles/cmTC_6dca3.dir/objects.a]
+  ignore line: [/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-ar qc CMakeFiles/cmTC_6dca3.dir/objects.a @CMakeFiles/cmTC_6dca3.dir/objects1.rsp]
+  ignore line: [/home/kevin/mxe/usr/x86_64-pc-linux-gnu/bin/i686-w64-mingw32.static-g++  -v -Wl --whole-archive CMakeFiles/cmTC_6dca3.dir/objects.a -Wl --no-whole-archive -o cmTC_6dca3.exe -Wl --out-implib libcmTC_6dca3.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Reading specs from /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/specs]
   ignore line: [COLLECT_GCC=/home/kevin/mxe/usr/bin/i686-w64-mingw32.static-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper]
@@ -382,13 +382,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/bin/]
   ignore line: [LIBRARY_PATH=/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib/:/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/:/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f943e.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_f943e.']
-  link line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3p5YDu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_f943e.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_f943e.dir/objects.a --no-whole-archive --out-implib libcmTC_f943e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6dca3.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_6dca3.']
+  link line: [ /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2 -plugin /home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so -plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMEL1bl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lssp_nonshared -plugin-opt=-pass-through=-lssp -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/kevin/mxe/usr/i686-w64-mingw32.static -m i386pe -Bdynamic -o cmTC_6dca3.exe /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0 -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib/../lib -L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib -L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib --whole-archive CMakeFiles/cmTC_6dca3.dir/objects.a --no-whole-archive --out-implib libcmTC_6dca3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lssp_nonshared -lssp -lmsvcrt -lkernel32 /home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtend.o]
     arg [/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/kevin/mxe/usr/libexec/gcc/i686-w64-mingw32.static/11.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3p5YDu.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMEL1bl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -415,7 +415,7 @@ Parsed CXX implicit link information from above output:
     arg [i386pe] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_f943e.exe] ==> ignore
+    arg [cmTC_6dca3.exe] ==> ignore
     arg [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o] ==> obj [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib/../lib/crt2.o]
     arg [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o] ==> obj [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/crtbegin.o]
     arg [-L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0] ==> dir [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0]
@@ -424,10 +424,10 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib] ==> dir [/home/kevin/mxe/usr/lib/gcc/i686-w64-mingw32.static/11.3.0/../../../../i686-w64-mingw32.static/lib]
     arg [-L/home/kevin/mxe/usr/i686-w64-mingw32.static/lib] ==> dir [/home/kevin/mxe/usr/i686-w64-mingw32.static/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles/cmTC_f943e.dir/objects.a] ==> ignore
+    arg [CMakeFiles/cmTC_6dca3.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_f943e.dll.a] ==> ignore
+    arg [libcmTC_6dca3.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore

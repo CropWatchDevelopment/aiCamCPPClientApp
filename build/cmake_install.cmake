@@ -1,4 +1,4 @@
-# Install script for directory: /home/kevin/source/repos/cpp/cmake-study/wxWidgets
+# Install script for directory: /home/kevin/source/repos/cpp/aiCamCPPClientApp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kevin/source/repos/cpp/cmake-study/wxWidgets/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kevin/source/repos/cpp/aiCamCPPClientApp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
